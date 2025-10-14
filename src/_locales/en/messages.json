@@ -1,0 +1,17 @@
+{
+    "extName": {
+        "message": "Hide Amazon Personal Info"
+    },
+    "extDescription": {
+        "message": "This is for people who often take screenshots."
+    },
+    "popupTitle": {
+        "message": "Amazon Personal Information Protection"
+    },
+    "statusEnabled": {
+        "message": "Protection: Enabled"
+    },
+    "statusDisabled": {
+        "message": "Protection: Disabled"
+    }
+}

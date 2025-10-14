@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Amazonの個人情報を隠します"
+  },
+  "extDescription": {
+    "message": "スクリーンショットなどをよく撮る人向けです"
+  },
+  "popupTitle": {
+    "message": "Amazon個人情報保護"
+  },
+  "statusEnabled": {
+    "message": "保護 有効"
+  },
+  "statusDisabled": {
+    "message": "保護 無効"
+  }
+}
