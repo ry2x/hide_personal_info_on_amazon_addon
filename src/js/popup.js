@@ -8,10 +8,10 @@ async function updateUI() {
     toggleSwitch.checked = isEnabled;
 
     if (isEnabled) {
-        statusDiv.textContent = '保護 有効';
+        statusDiv.textContent = browser.i18n.getMessage('statusEnabled');
         statusDiv.className = 'status on';
     } else {
-        statusDiv.textContent = '保護 無効';
+        statusDiv.textContent = browser.i18n.getMessage('statusDisabled');
         statusDiv.className = 'status off';
     }
 }
@@ -22,4 +22,7 @@ toggleSwitch.addEventListener('change', () => {
 
 browser.storage.onChanged.addListener(updateUI);
 
-document.addEventListener('DOMContentLoaded', updateUI);
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('popupTitle').textContent = browser.i18n.getMessage('popupTitle');
+    updateUI();
+});

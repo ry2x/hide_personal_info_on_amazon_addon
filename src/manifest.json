@@ -1,6 +1,7 @@
 {
-    "name": "Amazonの個人情報を隠します",
-    "description": "スクリーンショットなどをよく撮る人向けです",
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+    "default_locale": "en",
     "version": "2.0.3",
     "manifest_version": 3,
     "permissions": [
