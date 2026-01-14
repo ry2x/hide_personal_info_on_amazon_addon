@@ -38,7 +38,10 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "amazon-personal-information-hide@example.com"
+                "id": "@hide-personal-info-on-amazon-addon",
+                "data_collection_permissions": {
+                    "required": ["none"]
+                }
         }
     }
 }
