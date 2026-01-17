@@ -13,9 +13,4 @@ Amazon のスクリーンショットなどを twitter などに共有する際�
 
 ## インストール
 
-[release](https://github.com/ry2x/hide_personal_info_on_amazon_addon/releases) の  Firefox_addon_APIH.zip を選択してファイルをダウンロードしてください。<br>
-FireFox の 拡張機能の管理 を選択して 歯車アイコンをクリックし<br>
-`ファイルからアドオンをインストール...`を選択して<br>
-先ほどダウンロードした zip ファイルを選択しインストールしてください。<br>
-
-または[こちら](https://addons.mozilla.org/ja/firefox/addon/hide-amazon-personal-info/)からもインストールできます。
+[こちら](https://addons.mozilla.org/ja/firefox/addon/hide-amazon-personal-info/)からインストールできます。
